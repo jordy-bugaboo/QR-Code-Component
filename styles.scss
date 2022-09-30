@@ -1,0 +1,52 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+}
+
+p { 
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.c-card {
+    margin: 10% auto;
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+   
+    img { 
+        border-radius: 8px;
+        width: 375px;
+    }
+}
+
+
+/*
+* Utility classes
+*/
+
+
+.u-flex { 
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.u-flex-center { 
+    align-items: center; 
+}
+
+.u-align-text-center {
+    text-align: center;
+}
+
+h1 { 
+    color: hsl(218, 44%, 22%);
+}
